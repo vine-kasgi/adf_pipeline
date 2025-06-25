@@ -76,7 +76,6 @@
 									"storeSettings": {
 										"type": "AzureBlobFSReadSettings",
 										"recursive": false,
-										"wildcardFileName": "*.xlsx",
 										"enablePartitionDiscovery": false
 									},
 									"formatSettings": {

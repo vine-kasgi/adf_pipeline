@@ -16,7 +16,7 @@
 			"location": {
 				"type": "AzureBlobFSLocation",
 				"fileName": {
-					"value": "@concat('output','.',dataset().fileName)",
+					"value": "@concat('output','.','RTS_03',dataset().fileName)",
 					"type": "Expression"
 				},
 				"folderPath": "RTS_03",
