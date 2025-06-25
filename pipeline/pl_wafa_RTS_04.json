@@ -69,7 +69,13 @@
 							"typeProperties": {
 								"dataset": {
 									"referenceName": "ds_wafa_rts_04_delete_dl",
-									"type": "DatasetReference"
+									"type": "DatasetReference",
+									"parameters": {
+										"fileName": {
+											"value": "@item().name",
+											"type": "Expression"
+										}
+									}
 								},
 								"enableLogging": true,
 								"storeSettings": {
