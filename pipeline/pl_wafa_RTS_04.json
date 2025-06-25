@@ -17,7 +17,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"dataset": {
-						"referenceName": "ds_wafa_RTS_04",
+						"referenceName": "ds_wafa_RTS_04_lookup",
 						"type": "DatasetReference"
 					},
 					"fieldList": [

@@ -1,5 +1,5 @@
 {
-	"name": "ds_wafa_RTS_04",
+	"name": "ds_wafa_RTS_04_lookup",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "ls_adls",
