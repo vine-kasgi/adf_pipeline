@@ -77,6 +77,13 @@
 										}
 									}
 								},
+								"logStorageSettings": {
+									"linkedServiceName": {
+										"referenceName": "ls_adls",
+										"type": "LinkedServiceReference"
+									},
+									"path": "logs"
+								},
 								"enableLogging": true,
 								"storeSettings": {
 									"type": "AzureBlobFSReadSettings",
