@@ -5,13 +5,18 @@
 			"referenceName": "ls_adls",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"fileName": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
 				"fileName": {
-					"value": "concat('RTS_03','Output')",
+					"value": "@concat('output','.',dataset().fileName)",
 					"type": "Expression"
 				},
 				"folderPath": "RTS_03",
