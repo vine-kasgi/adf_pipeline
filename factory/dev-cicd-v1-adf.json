@@ -1,0 +1,9 @@
+{
+	"name": "dev-cicd-v1-adf",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "dd18db8c-1e95-4a3e-bd0b-2a3d5de2fd07",
+		"tenantId": "f53efc97-30c9-4a6f-8388-5d33eff76ce3"
+	}
+}
