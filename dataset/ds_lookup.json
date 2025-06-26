@@ -1,0 +1,83 @@
+{
+	"name": "ds_lookup",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_adls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "input"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "STO No",
+				"type": "String"
+			},
+			{
+				"name": "STO Date",
+				"type": "String"
+			},
+			{
+				"name": "STO Type",
+				"type": "String"
+			},
+			{
+				"name": "Origin Site",
+				"type": "String"
+			},
+			{
+				"name": "Destination Site",
+				"type": "String"
+			},
+			{
+				"name": "Status",
+				"type": "String"
+			},
+			{
+				"name": "Order Quantity",
+				"type": "String"
+			},
+			{
+				"name": "On Hold",
+				"type": "String"
+			},
+			{
+				"name": "Ship Date",
+				"type": "String"
+			},
+			{
+				"name": "Del Date",
+				"type": "String"
+			},
+			{
+				"name": "Created by",
+				"type": "String"
+			},
+			{
+				"name": "Modified By",
+				"type": "String"
+			},
+			{
+				"name": "isCrossDock",
+				"type": "String"
+			},
+			{
+				"name": "Created Date",
+				"type": "String"
+			},
+			{
+				"name": "Updated Date",
+				"type": "String"
+			}
+		]
+	}
+}
