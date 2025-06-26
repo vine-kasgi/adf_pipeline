@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Introduction 
 TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
 
@@ -21,4 +20,3 @@ If you want to learn more about creating good readme files then refer the follow
 - [Chakra Core](https://github.com/Microsoft/ChakraCore)
 =======
 # adf_pipeline
->>>>>>> d3d873430c95c975fa791af24c33d9e3109f8310
