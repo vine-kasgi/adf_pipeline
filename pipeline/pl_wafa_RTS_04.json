@@ -1,7 +1,7 @@
 {
 	"name": "pl_wafa_RTS_04",
 	"properties": {
-		"description": "any file older than 1 day it should be removed.",
+		"description": "delete any file older than 1 day from source",
 		"activities": [
 			{
 				"name": "Get file dates",
@@ -25,6 +25,7 @@
 					],
 					"storeSettings": {
 						"type": "AzureBlobFSReadSettings",
+						"recursive": true,
 						"modifiedDatetimeEnd": {
 							"value": "@addDays(utcNow(),-1 )",
 							"type": "Expression"
