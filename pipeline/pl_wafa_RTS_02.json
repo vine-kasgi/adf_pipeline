@@ -1,6 +1,7 @@
 {
 	"name": "pl_wafa_RTS_02",
 	"properties": {
+		"description": "Get FileName from Source Folder Dyanmically",
 		"activities": [
 			{
 				"name": "Get Metadata1",
@@ -24,6 +25,7 @@
 					],
 					"storeSettings": {
 						"type": "AzureBlobFSReadSettings",
+						"recursive": true,
 						"enablePartitionDiscovery": false
 					},
 					"formatSettings": {
