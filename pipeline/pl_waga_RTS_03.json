@@ -1,6 +1,7 @@
 {
 	"name": "pl_waga_RTS_03",
 	"properties": {
+		"description": "Copy New and Changed files and .xlsx Files  based on last modified date",
 		"activities": [
 			{
 				"name": "Get Metadata1",
